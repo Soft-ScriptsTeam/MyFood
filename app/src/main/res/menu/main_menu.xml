@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home"
+                    android:title="Home" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Food">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_fast_food"
+                    android:icon="@drawable/burgerone"
+                    android:title="Fast Food" />
+
+                <item
+                    android:id="@+id/nav_sea_food"
+                    android:icon="@drawable/fishlogo"
+                    android:title="Sea Food" />
+
+                <item
+                    android:id="@+id/nav_italien_food"
+                    android:icon="@drawable/pastalogo"
+                    android:title="Italien Food" />
+
+                <item
+                    android:id="@+id/nav_continental_food"
+                    android:icon="@drawable/continentallogo"
+                    android:title="Continental Food" />
+
+                <item
+                    android:id="@+id/nav_chinese_food"
+                    android:icon="@drawable/chineselogo"
+                    android:title="Chinese Food" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Utilisateur">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_action_person2"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_order_details"
+                    android:icon="@drawable/ic_order_details"
+                    android:title="Order Details" />
+
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_action_help"
+                    android:title="Aidez-moi" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_exit"
+                    android:title="Se déconnecter" />
+
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communiquer">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_action_share"
+                    android:title="Partager" />
+
+                <item
+                    android:id="@+id/nav_bus"
+                    android:icon="@drawable/ic_action_rate"
+                    android:title="Évaluez nous" />
+            </group>
+        </menu>
+    </item>
+</menu>
